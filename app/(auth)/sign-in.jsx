@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { View, Text, ScrollView, Image } from 'react-native'
 import React, { useState } from 'react'
 import {SafeAreaView } from 'react-native-safe-area-context'
@@ -58,6 +59,16 @@ const SignIn = () => {
             </View>
         </ScrollView>
     </SafeAreaView>
+=======
+import { View, Text } from 'react-native'
+import React from 'react'
+
+const SignIn = () => {
+  return (
+    <View>
+      <Text> SignIn</Text>
+    </View>
+>>>>>>> 3d6169b81580d101b6d0cd6bab9ea1422f7b0c7b
   )
 }
 

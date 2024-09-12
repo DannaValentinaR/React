@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { View, Text, ScrollView, Image } from 'react-native'
 import React, { useState } from 'react'
 import {SafeAreaView } from 'react-native-safe-area-context'
@@ -70,4 +71,17 @@ const SignUp = () => {
 }
 
 
+=======
+import { View, Text } from 'react-native'
+import React from 'react'
+
+const SignUp = () => {
+  return (
+    <View>
+      <Text>SignUp</Text>
+    </View>
+  )
+}
+
+>>>>>>> 3d6169b81580d101b6d0cd6bab9ea1422f7b0c7b
 export default SignUp
